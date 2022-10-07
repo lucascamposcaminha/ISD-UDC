@@ -1,0 +1,17 @@
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\exceptions\ClientMaxParticipantsException.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\dto\ClientReservaDto.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\ui\AppServiceClient.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\exceptions\ClientLateUpdateException.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\rest\json\JsonToClientExcursionDtoConversor.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\exceptions\ClientInvalidDateException.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\rest\json\JsonToClientExceptionConversor.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\exceptions\ClientMinimumPlacesException.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\ClientAppServiceFactory.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\dto\ClientExcursionDto.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\exceptions\ClientAlreadyCanceledException.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\rest\RestClientAppService.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\ClientAppService.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\exceptions\ClientInvalidUserException.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\exceptions\ClientLateRegisterException.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\exceptions\ClientLateCancelException.java
+C:\software\isd-009\ws-app-client\src\main\java\es\udc\ws\app\client\service\rest\json\JsonToClientReservaDtoConversor.java
