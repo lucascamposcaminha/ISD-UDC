@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="es.udc.ws.app.test.model.appservice.AppServiceTest" time="1.185" tests="30" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="testCancelReservaInvalidUser" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.329"/>
+  <testcase name="testAddReserva" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.039"/>
+  <testcase name="testFindExcursionsWithoutDates" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.118"/>
+  <testcase name="testLateCancelReserva" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.042"/>
+  <testcase name="testFindExcursionsWithInitDate" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.051"/>
+  <testcase name="testAddExcursion" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.015"/>
+  <testcase name="testAnticipateStartExcursion" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.013"/>
+  <testcase name="testAddReservaRepeatedly" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.044"/>
+  <testcase name="testValidCancelReserva" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.031"/>
+  <testcase name="testFindExcursionsWithEndDate" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.053"/>
+  <testcase name="testCancelNonExistentReserva" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.036"/>
+  <testcase name="testAddReservaWithInvalidEmail" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.014"/>
+  <testcase name="testLateUpdateExcursion" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.021"/>
+  <testcase name="testAddInvalidExcursion" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.024"/>
+  <testcase name="testUpdateExcursionInsufficientPlaces" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.02"/>
+  <testcase name="testFindExcursionsWithTwoDates" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.053"/>
+  <testcase name="testValidUpdateExcursion" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.017"/>
+  <testcase name="testAddReservaWhenExcursionFull" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.013"/>
+  <testcase name="testValidFindUserReservas" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.066"/>
+  <testcase name="testAddReservaWhenStartIn24H" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.017"/>
+  <testcase name="testFindNoUserReservas" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.025"/>
+  <testcase name="testFindUserReservasInvalidUser" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0"/>
+  <testcase name="testCancelReservaAlreadyCanceled" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.028"/>
+  <testcase name="testInvalidFindExcursions" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.001"/>
+  <testcase name="testAddReservaButExcursionNotExists" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.003"/>
+  <testcase name="testCancelReservaInvalidInput" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.02"/>
+  <testcase name="testAddReservaWithInvalidCreditCard" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.01"/>
+  <testcase name="testUpdateInvalidExcursion" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.022"/>
+  <testcase name="testUpdateNonExistentExcursion" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.004"/>
+  <testcase name="testAddReservaWithInvalidPlaces" classname="es.udc.ws.app.test.model.appservice.AppServiceTest" time="0.011"/>
+</testsuite>
