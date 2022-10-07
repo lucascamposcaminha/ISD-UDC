@@ -1,0 +1,110 @@
+------------------------------
+Lucas: lucas.campos@udc.es
+Elena: elena.sanchezg@udc.es
+Jose: jose.luis.pardo@udc.es
+------------------------------
+
+it-1
+
+-Clases de implementación de los DAOs. 
+
+	-AbstractSqlExcursionDao -->
+		update: Jose
+		find: Lucas
+		findExcursions: Jose
+		remove: Jose
+	
+	-Jdbc3CcSqlExcursionDao -->
+		Create: Lucas
+
+	-AbstractSqlReservaDao -->
+		find: Elena
+		findReservas: Elena
+		remove: Lucas
+		update: Jose
+
+	-Jdbc3CcSqlReservaDao -->
+		Create: Lucas
+
+-Clase de implementación del servicio (o servicios) de la capa modelo. 
+	-ExcursionServiceImpl -->
+		addExcursion: Lucas
+		updateExcursion: Jose
+		findExcursions: Elena
+		reserva: Lucas
+		cancelReserva: Jose
+		findUserReservas: Elena
+
+-Clase que contiene los tests de integración de la capa modelo.
+
+	[FUNC-1] --> Lucas
+		testAddExcursion
+		testAddInvalidExcursion
+
+	[FUNC-2] --> Jose
+		testValidUpdateExcursion
+		testUpdateNonExistentExcursion
+		testUpdateInvalidExcursion
+		testLateUpdateExcursion
+		testAnticipateStartExcursion
+		testUpdateExcursionInsufficientPlaces
+
+	[FUNC-3] --> Elena
+		testFindExcursionsWithTwoDates
+		testFindExcursionsWithInitDate
+		testFindExcursionsWithEndDate
+		testFindExcursionsWithoutDates
+		testInvalidFindExcursions
+
+	[FUNC-4] --> Lucas
+		testAddReserva
+		testAddReservaWithInvalidCreditCard
+		testAddReservaButExcursionNotExists
+		testAddReservaRepeatedly
+		testAddReservaWithInvalidEmail
+		testAddReservaWhenExcursionFull
+		testAddReservaWhenStartIn24H
+		testAddReservaWithInvalidPlaces
+
+	[FUNC-5] --> Jose
+		testValidCancelReserva
+		testLateCancelReserva
+		testCancelReservaAlreadyCanceled
+		testCancelNonExistentReserva
+		testCancelReservaInvalidInput
+		testCancelReservaInvalidUser
+	
+	[FUNC-6] --> Elena
+		testValidFindUserReservas
+		testFindUserReservasInvalidUser
+		testFindNoUserReservas
+
+
+-------------------------------------------------------------------------------------------
+
+it-2
+
+
+-Métodos de los Servlets que constituyen la capa Servicios REST.
+
+	-ReservasServlet -->
+		processPost: reservar: Lucas / cancelar: Jose
+		processGet: Elena
+	-ExcursionsServlet -->
+		processPost: Lucas
+		processPut: Jose
+		processGet: Elena
+
+-Métodos públicos de la clase de implementación de la capa de Acceso al Servicio REST.
+
+	RestClientAppService -->
+		addExcursion: Lucas
+		updateExcursion: Jose
+		findExcursions: Elena
+		reserva: Lucas
+		cancelReserva: Jose
+		findUserReservas: Elena
+
+
+
+-------------------------------------------------------------------------------------------
