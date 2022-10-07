@@ -1,0 +1,4 @@
+es/udc/ws/app/thriftservice/ReservaToThriftReservaDtoConversor.class
+es/udc/ws/app/thriftservice/ExcursionToThriftExcursionDtoConversor.class
+es/udc/ws/app/thriftservice/ThriftExcursionServiceServlet.class
+es/udc/ws/app/thriftservice/ThriftExcursionServiceIpml.class

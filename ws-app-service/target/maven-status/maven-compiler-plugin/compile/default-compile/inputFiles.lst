@@ -1,0 +1,13 @@
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/restservice/servlets/ExcursionsServlet.java
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/restservice/servlets/ReservasServlet.java
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/restservice/json/AppExceptionToJsonConversor.java
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/thriftservice/ThriftExcursionServiceIpml.java
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/restservice/dto/RestReservaDto.java
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/restservice/dto/RestExcursionDto.java
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/thriftservice/ExcursionToThriftExcursionDtoConversor.java
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/restservice/json/JsonToRestExcursionDtoConversor.java
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/thriftservice/ThriftExcursionServiceServlet.java
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/restservice/dto/ExcursionToRestExcursionDtoConversor.java
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/restservice/dto/ReservaToRestReservaDtoConversor.java
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/thriftservice/ReservaToThriftReservaDtoConversor.java
+/home/nico/Descargas/isd-009/ws-app-service/src/main/java/es/udc/ws/app/restservice/json/JsonToRestReservaDtoConversor.java
